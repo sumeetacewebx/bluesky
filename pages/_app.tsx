@@ -35,6 +35,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
     return (
       <>
+       <ToastContainer />
         <AuthContextProvider>
           <ProtectedRoute>{renderApp()}</ProtectedRoute>
         </AuthContextProvider>
