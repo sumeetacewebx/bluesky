@@ -1,0 +1,51 @@
+{
+  "name": "crm_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@hookform/resolvers": "^2.9.10",
+    "@material-ui/core": "4.11.0",
+    "@mui/base": "^5.0.0-alpha.98",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/joy": "latest",
+    "@mui/lab": "latest",
+    "@mui/material": "^5.11.1",
+    "@mui/system": "^5.10.6",
+    "@mui/x-data-grid": "latest",
+    "@mui/x-date-pickers": "^5.0.2",
+    "@types/node": "18.11.10",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "apexcharts": "^3.36.3",
+    "react-apexcharts": "^1.4.0",
+    "axios": "^1.2.0",
+    "dayjs": "^1.11.6",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.6",
+    "lodash": "4.17.21",
+    "material-ui-phone-number": "^3.0.0",
+    "moment": "^2.29.4",
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.40.0",
+    "react-toastify": "^9.0.8",
+    "typescript": "4.9.3",
+    "uuid": "^9.0.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
+  }
+}
