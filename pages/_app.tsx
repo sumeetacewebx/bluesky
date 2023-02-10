@@ -15,10 +15,12 @@ export default function App({ Component, pageProps }: AppProps) {
 
   const renderApp = () => {
     return (
-    <AuthContextProvider>
+      <>
       <ToastContainer />
+    <AuthContextProvider>
         <Component {...pageProps} />
      </AuthContextProvider>
+     </>
      )
   };
 
